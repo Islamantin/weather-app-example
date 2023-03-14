@@ -1,0 +1,33 @@
+.card {
+  margin-top: 1rem;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  border: 2px solid BlueViolet;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  > div {
+    padding: 10px;
+  }
+  .icon {
+    margin: 10px 10px;
+  }
+  .temperature {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .description {
+    margin: 0;
+  }
+  .date {
+    color: #ccc;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+  }
+
+  &.small {
+    width: 90px;
+  }
+}
